@@ -1,12 +1,12 @@
 export const environment = {
   firebase: {
-    projectId: 'product-admin-app-73b20',
-    appId: '1:760196996218:web:4236fad8ca2acaffe66fc3',
-    storageBucket: 'product-admin-app-73b20.appspot.com',
-    locationId: 'us-central',
-    apiKey: 'AIzaSyDjzfb9sZqGskTkv5OSDumXCBxlatPKh0k',
-    authDomain: 'product-admin-app-73b20.firebaseapp.com',
-    messagingSenderId: '760196996218',
+    projectId: import.meta.env.NG_APP_PROJECTID,
+    appId: import.meta.env.NG_APP_APPID,
+    storageBucket: import.meta.env.NG_APP_STORAGEBUCKET,
+    locationId: import.meta.env.NG_APP_LOCATIONID,
+    apiKey: import.meta.env.NG_APP_APIKEY,
+    authDomain: import.meta.env.NG_APP_AUTHDOMAIN,
+    messagingSenderId: import.meta.env.NG_APP_MESSAGINGSENDERID,
   },
   production: true
 };
